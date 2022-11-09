@@ -1,0 +1,35 @@
+## git workflow 
+echo "# git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Devops-pro-group/git.git
+git push -u origin main
+############################################################################
+
+#### create alias in git
+git config --global alias.s "status" alias for status
+
+git config --global alias.cm "commit -m"
+
+git config --global alias.co "checkout"
+
+
+###  create .gitignore and add the file that you don't want git to track
+
+ .gitignore
+
+##  If your  commit message has an error and you want to correct it do
+
+git commit -m "first commit" --amend 
+
+# To reset all the changes in the staging area to the working area do
+
+git reset .
+
+git checkout -- .
+
+## List all of the branches in your repository
+
+git branch --list
