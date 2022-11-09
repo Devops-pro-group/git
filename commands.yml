@@ -78,3 +78,7 @@ git push origin --delete <branch>
 # that triggers a delete of the remote branch
 
 git push origin :<branch>
+
+# This command tells the local repository that there are changes 
+# available in the  remote repo without bringing them in the local repository.
+git fetch
