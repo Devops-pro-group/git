@@ -28,7 +28,13 @@ git commit -m "first commit" --amend
 
 git reset .
 
-git checkout -- .
+# This command create a new branch.
+
+git branch branchname
+
+# This command allows you to switch from one branch to another. 
+
+git checkout branchname
 
 ## List all of the branches in your repository
 
@@ -82,3 +88,12 @@ git push origin :<branch>
 # This command tells the local repository that there are changes 
 # available in the  remote repo without bringing them in the local repository.
 git fetch
+
+# This command brings the copy of the remote repo to the local repo.
+git pull 
+
+# Used to merge specific commit in a branch
+git cherrp-pick (CID)
+
+# Command used to integrate changes from another branch.
+git merge
