@@ -97,3 +97,7 @@ git cherrp-pick (CID)
 
 # Command used to integrate changes from another branch.
 git merge
+
+# It separates each commit that has been done 
+
+git rebase
