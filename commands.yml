@@ -101,3 +101,7 @@ git merge
 # It separates each commit that has been done 
 
 git rebase
+
+# git workflow
+
+working area -- staging ---local repository  =---> remote repository
