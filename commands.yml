@@ -97,3 +97,6 @@ git cherrp-pick (CID)
 
 # Command used to integrate changes from another branch.
 git merge
+
+# To rename git remote url 
+ git remote rename <old name>  <new name>
